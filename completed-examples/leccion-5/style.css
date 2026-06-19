@@ -1,0 +1,45 @@
+body {
+  background-color: #f0f4f8;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.tarjeta {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.foto {
+  border-radius: 50%;
+}
+
+#nombre {
+  color: #3366ff;
+  font-size: 32px;
+}
+
+.subtitulo {
+  color: #777777;
+  font-style: italic;
+}
+
+h2 {
+  color: #555555;
+}
+
+a {
+  color: #3366ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}

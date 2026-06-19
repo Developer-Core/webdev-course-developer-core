@@ -4,7 +4,7 @@
 
 Este curso de 1 hora introduce a estudiantes de secundaria (12 a 17 años) a la creación de sitios web sencillos con HTML y CSS, partiendo desde cero y sin experiencia previa en programación. **¡No requiere descargas!** Solo abre tu navegador web.
 
-A lo largo del curso construiremos una **página de perfil personal**. Cada lección agrega una capa a esa misma página. Primero la estructura con HTML, luego el contenido, después el estilo con CSS, hasta que la terminas y la compartes. 
+En este curso aprendes HTML y CSS construyendo paso a paso una **página de ejemplo sobre tu videojuego favorito**. Y al final, en la última lección, creas tu propia **página de perfil personal desde cero**, aplicando todo lo aprendido. 
 
 - **Duración total**: ~60 minutos
 - **Público objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación
@@ -26,28 +26,28 @@ A lo largo del curso construiremos una **página de perfil personal**. Cada lecc
 - **Práctica (editor inicial)**: [Abre el CodePen de demostración](<enlace-editor-1>) 👈 **¡Sin registro!**
 
 ### Lección 2: Estructura HTML básica (10 minutos)
-- **Descripción**: Aprende qué son las etiquetas, los elementos y los atributos, y construye el esqueleto HTML de tu página de perfil con tu nombre y una frase tuya.
+- **Descripción**: Aprende qué son las etiquetas, los elementos y los atributos, y crea tu primera página solo con HTML sobre tu videojuego favorito.
 - **Enlace del tutorial**: [Ver la lección](<enlace-yt-2>)
-- **Consejos clave**: Las etiquetas vienen en par, una de apertura y una de cierre. El elemento es la apertura, el contenido y el cierre juntos. Los atributos dan información extra. Todo lo visible va dentro de `<body>`.
-- **Práctica (editor inicial)**: [Abre el esqueleto en CodePen](<enlace-editor-2>) 👈 **¡Sin registro!**
+- **Consejos clave**: Las etiquetas vienen en par, una de apertura y una de cierre. El elemento es la apertura, el contenido y el cierre juntos. Los atributos dan información extra. Conoces los encabezados `<h1>` a `<h6>`, los párrafos `<p>` y los comentarios.
+- **Práctica (editor inicial)**: [Empieza en CodePen](<enlace-editor-2>) 👈 **¡Sin registro!**
 
 ### Lección 3: Elementos HTML comunes (8 minutos)
-- **Descripción**: Enriquece tu perfil con encabezados de sección, tu foto (`<img>`), una lista de tus hobbies (`<ul>`/`<li>`) y enlaces (`<a>`).
+- **Descripción**: Enriquece tu página del videojuego con encabezados de sección, una imagen, texto destacado, listas con viñetas, listas numeradas y enlaces.
 - **Enlace del tutorial**: [Ver la lección](<enlace-yt-3>)
-- **Consejos clave**: `<img>` usa los atributos `src` (la dirección) y `alt` (texto descriptivo). Las listas usan `<ul>` con varios `<li>`. Los enlaces usan `<a>` con el atributo `href`.
-- **Práctica (editor inicial)**: [Continúa tu perfil en CodePen](<enlace-editor-3>) 👈 **¡Comienza al instante!**
+- **Consejos clave**: `<img>` usa los atributos `src` y `alt`. Las listas con viñetas usan `<ul>` y las numeradas `<ol>`, cada elemento en un `<li>`. Los enlaces usan `<a>` con `href`, y con `target="_blank"` abren en pestaña nueva.
+- **Práctica (editor inicial)**: [Continúa tu página en CodePen](<enlace-editor-3>) 👈 **¡Comienza al instante!**
 
-### Lección 4: Introducción a CSS (12 minutos)
-- **Descripción**: Dale vida a tu perfil con CSS: aprende los selectores y las propiedades para cambiar colores, fondo y tipografía.
+### Lección 4: CSS: dale estilo a tu página (12 minutos)
+- **Descripción**: Dale estilo a tu página del videojuego con CSS. Selectores de elemento, clase e id, color, tipografía, el modelo de caja y una tarjeta con bordes, sombra y efecto al pasar el cursor.
 - **Enlace del tutorial**: [Ver la lección](<enlace-yt-4>)
-- **Consejos clave**: una regla CSS es `selector { propiedad: valor; }`. `color` cambia el texto y `background-color` el fondo. Con `font-family`, `font-size` y `text-align` controlas la tipografía.
+- **Consejos clave**: una regla CSS es `selector { propiedad: valor; }`. Seleccionas por elemento, por clase (con `.`) o por id (con `#`). `padding` es el espacio interno y `margin` el externo. Con `border-radius`, `box-shadow` y `:hover` le das el acabado.
 - **Práctica (editor inicial)**: [Aplica estilo en CodePen](<enlace-editor-4>) 👈 **¡Sin registro!**
 
-### Lección 5: Estilo simple y tu página de perfil final (15 minutos)
-- **Descripción**: Termina tu perfil: centra el contenido, agrega espaciado y bordes, y conviértelo en una tarjeta lista para compartir.
+### Lección 5: Proyecto final: tu página de perfil personal (15 minutos)
+- **Descripción**: El proyecto final. Construye desde cero tu propia página de perfil personal, aplicando todo el HTML y CSS de las lecciones anteriores, y compártela.
 - **Enlace del tutorial**: [Ver la lección](<enlace-yt-5>)
-- **Consejos clave**: `padding` es el espacio interno y `margin` el externo. Centra bloques con `max-width` y `margin: 0 auto`. Usa `border` y `border-radius` para la tarjeta y la foto redonda.
-- **Proyecto Final**: [Termina tu perfil en CodePen](<enlace-editor-5>) 👈 **¡Guarda y comparte!**
+- **Consejos clave**: Aplica todo lo aprendido. Estructura con HTML, estilo con CSS, la tarjeta y el efecto hover. Si olvidas algo, vuelve a la lección donde se explicó.
+- **Proyecto Final**: [Crea tu perfil desde cero en CodePen](<enlace-editor-5>) 👈 **¡Guarda y comparte!**
 
 ### Lección 6: Recomendaciones y errores comunes (10 minutos)
 - **Descripción**: Repasa los errores más comunes de los principiantes, aprende a validar tu código y descubre a dónde seguir aprendiendo.
@@ -63,10 +63,10 @@ A lo largo del curso construiremos una **página de perfil personal**. Cada lecc
 | Lección # | Actividad | Editor inicial |
 |-----------|-----------------------|---------------------|
 | 1 | Explorar la relación HTML ↔ CSS | [CodePen](<enlace-editor-1>) |
-| 2 | El esqueleto de tu perfil | [CodePen](<enlace-editor-2>) |
-| 3 | Foto, hobbies y enlaces | [CodePen](<enlace-editor-3>) |
+| 2 | Tu videojuego en HTML | [CodePen](<enlace-editor-2>) |
+| 3 | Imagen, listas y enlaces | [CodePen](<enlace-editor-3>) |
 | 4 | Estilo con CSS | [CodePen](<enlace-editor-4>) |
-| 5 | Tu perfil final | [CodePen](<enlace-editor-5>) |
+| 5 | Tu perfil desde cero | [CodePen](<enlace-editor-5>) |
 | 6 | Valida y comparte | [Actividad de cierre](<enlace-editor-6>) |
 
 **¡Gracias por completar el curso!**
