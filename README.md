@@ -38,9 +38,9 @@ En este curso aprendes HTML y CSS construyendo paso a paso una **página de ejem
 - **Práctica (editor inicial)**: [Continúa tu página en CodePen](<enlace-editor-3>) 👈 **¡Comienza al instante!**
 
 ### Lección 4: CSS: dale estilo a tu página (12 minutos)
-- **Descripción**: Dale estilo a tu página del videojuego con CSS. Selectores de elemento, clase e id, color, tipografía, el modelo de caja y una tarjeta con bordes, sombra y efecto al pasar el cursor.
+- **Descripción**: Dale estilo a tu página del videojuego con CSS. Selectores de elemento, clase e id, color, tipografía, el modelo de caja y una tarjeta centrada con Flexbox, bordes y efecto al pasar el cursor.
 - **Enlace del tutorial**: [Ver la lección](<enlace-yt-4>)
-- **Consejos clave**: una regla CSS es `selector { propiedad: valor; }`. Seleccionas por elemento, por clase (con `.`) o por id (con `#`). `padding` es el espacio interno y `margin` el externo. Con `border-radius`, `box-shadow` y `:hover` le das el acabado.
+- **Consejos clave**: una regla CSS es `selector { propiedad: valor; }`. Seleccionas por elemento, por clase (con `.`) o por id (con `#`). `padding` es el espacio interno y `margin` el externo. Centras con `display: flex` y `justify-content`, y con `border-radius` y `:hover` le das el acabado.
 - **Práctica (editor inicial)**: [Aplica estilo en CodePen](<enlace-editor-4>) 👈 **¡Sin registro!**
 
 ### Lección 5: Proyecto final: tu página de perfil personal (15 minutos)
