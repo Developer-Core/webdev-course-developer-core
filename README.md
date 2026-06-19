@@ -20,39 +20,39 @@ A lo largo del curso construiremos una **página de perfil personal**. Cada lecc
 ## Lecciones
 
 ### Lección 1: ¿Qué es el desarrollo web? (5 minutos)
-- **Descripción**: Descubre qué es el desarrollo web —crear las páginas que el navegador muestra, no solo navegarlas— y por qué HTML y CSS son sus dos pilares. Verás el proyecto que construirás durante el curso: tu propia página de perfil.
+- **Descripción**: Descubre qué es el desarrollo web, es decir, crear las páginas que el navegador muestra y no solo navegarlas, y por qué HTML y CSS son sus dos pilares. Verás el proyecto que construirás durante el curso: tu propia página de perfil.
 - **Enlace del tutorial**: [Ver la lección](<enlace-yt-1>)
-- **Consejos clave**: HTML es la estructura (el contenido); CSS es el estilo (la apariencia); el navegador interpreta ese código y lo dibuja.
+- **Consejos clave**: HTML es la estructura (el contenido), CSS es el estilo (la apariencia) y el navegador interpreta ese código y lo dibuja.
 - **Práctica (editor inicial)**: [Abre el CodePen de demostración](<enlace-editor-1>) 👈 **¡Sin registro!**
 
 ### Lección 2: Estructura HTML básica (10 minutos)
 - **Descripción**: Aprende qué son las etiquetas, los elementos y los atributos, y construye el esqueleto HTML de tu página de perfil con tu nombre y una frase tuya.
 - **Enlace del tutorial**: [Ver la lección](<enlace-yt-2>)
-- **Consejos clave**: las etiquetas vienen en par (apertura/cierre); el elemento es apertura + contenido + cierre; los atributos dan información extra; todo lo visible va dentro de `<body>`.
+- **Consejos clave**: Las etiquetas vienen en par, una de apertura y una de cierre. El elemento es la apertura, el contenido y el cierre juntos. Los atributos dan información extra. Todo lo visible va dentro de `<body>`.
 - **Práctica (editor inicial)**: [Abre el esqueleto en CodePen](<enlace-editor-2>) 👈 **¡Sin registro!**
 
 ### Lección 3: Elementos HTML comunes (8 minutos)
 - **Descripción**: Enriquece tu perfil con encabezados de sección, tu foto (`<img>`), una lista de tus hobbies (`<ul>`/`<li>`) y enlaces (`<a>`).
 - **Enlace del tutorial**: [Ver la lección](<enlace-yt-3>)
-- **Consejos clave**: `<img>` usa los atributos `src` (la dirección) y `alt` (texto descriptivo); las listas usan `<ul>` con varios `<li>`; los enlaces usan `<a>` con el atributo `href`.
+- **Consejos clave**: `<img>` usa los atributos `src` (la dirección) y `alt` (texto descriptivo). Las listas usan `<ul>` con varios `<li>`. Los enlaces usan `<a>` con el atributo `href`.
 - **Práctica (editor inicial)**: [Continúa tu perfil en CodePen](<enlace-editor-3>) 👈 **¡Comienza al instante!**
 
 ### Lección 4: Introducción a CSS (12 minutos)
 - **Descripción**: Dale vida a tu perfil con CSS: aprende los selectores y las propiedades para cambiar colores, fondo y tipografía.
 - **Enlace del tutorial**: [Ver la lección](<enlace-yt-4>)
-- **Consejos clave**: una regla CSS es `selector { propiedad: valor; }`; `color` cambia el texto y `background-color` el fondo; con `font-family`, `font-size` y `text-align` controlas la tipografía.
+- **Consejos clave**: una regla CSS es `selector { propiedad: valor; }`. `color` cambia el texto y `background-color` el fondo. Con `font-family`, `font-size` y `text-align` controlas la tipografía.
 - **Práctica (editor inicial)**: [Aplica estilo en CodePen](<enlace-editor-4>) 👈 **¡Sin registro!**
 
 ### Lección 5: Estilo simple y tu página de perfil final (15 minutos)
 - **Descripción**: Termina tu perfil: centra el contenido, agrega espaciado y bordes, y conviértelo en una tarjeta lista para compartir.
 - **Enlace del tutorial**: [Ver la lección](<enlace-yt-5>)
-- **Consejos clave**: `padding` es el espacio interno y `margin` el externo; centra bloques con `max-width` + `margin: 0 auto`; usa `border` y `border-radius` para la tarjeta y la foto redonda.
+- **Consejos clave**: `padding` es el espacio interno y `margin` el externo. Centra bloques con `max-width` y `margin: 0 auto`. Usa `border` y `border-radius` para la tarjeta y la foto redonda.
 - **Proyecto Final**: [Termina tu perfil en CodePen](<enlace-editor-5>) 👈 **¡Guarda y comparte!**
 
 ### Lección 6: Recomendaciones y errores comunes (10 minutos)
 - **Descripción**: Repasa los errores más comunes de los principiantes, aprende a validar tu código y descubre a dónde seguir aprendiendo.
 - **Enlace del tutorial**: [Ver la lección](<enlace-yt-6>)
-- **Consejos clave**: cierra siempre tus etiquetas y comillas; revisa las rutas de imagen y no olvides el `alt`; valida tu código con el validador del W3C; sigue aprendiendo en la documentación web de MDN.
+- **Consejos clave**: Cierra siempre tus etiquetas y comillas. Revisa las rutas de imagen y no olvides el `alt`. Valida tu código con el validador del W3C. Sigue aprendiendo en la documentación web de MDN.
 - **Comparte tu trabajo**: [Valida y comparte tu creación](<enlace-editor-6>)
 
 ## Recursos Adicionales
