@@ -4,7 +4,7 @@
 
 Este curso de 1 hora introduce a estudiantes de secundaria (12 a 17 años) a la creación de sitios web sencillos con HTML y CSS, partiendo desde cero y sin experiencia previa en programación. **¡No requiere descargas!** Solo abre tu navegador web.
 
-El curso avanza de forma progresiva: primero entenderás **qué es un sitio web**, luego construirás la **estructura** de una página con HTML, le darás **estilo** con CSS y, finalmente, crearás tu propia **página de perfil personal**. Cada lección es corta, visual y termina con una práctica que puedes hacer al instante en un editor en línea.
+A lo largo del curso construiremos una **página de perfil personal**. Cada lección agrega una capa a esa misma página. Primero la estructura con HTML, luego el contenido, después el estilo con CSS, hasta que la terminas y la compartes. 
 
 - **Duración total**: ~60 minutos
 - **Público objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación
@@ -13,58 +13,61 @@ El curso avanza de forma progresiva: primero entenderás **qué es un sitio web*
 
 📂 **Repositorio de código fuente**: [https://github.com/Developer-Core/webdev-course-developer-core](https://github.com/Developer-Core/webdev-course-developer-core)
 
-## Secuencia de la lección
+## Lo que construirás
+
+![Vista previa de la página de perfil terminada](assets/preview-perfil.png)
+
+## Lecciones
 
 ### Lección 1: ¿Qué es el desarrollo web? (5 minutos)
-- **Descripción**: Descubre qué es un sitio web, cómo el navegador muestra una página y por qué HTML y CSS son los dos pilares de toda página web. Verás la diferencia entre el **contenido** (HTML) y el **estilo** (CSS) con ejemplos del día a día.
-- **Enlace**: [Ver la lección](<enlace-yt-1>)
-- **Conceptos clave**: Sitio web = Contenido (HTML) + Estilo (CSS); cómo el navegador interpreta el código.
-- **Empieza a programar**: [Abre CodePen](<enlace-editor-1>) 👈 **¡No necesitas registrarte!**
+- **Descripción**: Descubre qué es el desarrollo web —crear las páginas que el navegador muestra, no solo navegarlas— y por qué HTML y CSS son sus dos pilares. Verás el proyecto que construirás durante el curso: tu propia página de perfil.
+- **Enlace del tutorial**: [Ver la lección](<enlace-yt-1>)
+- **Consejos clave**: HTML es la estructura (el contenido); CSS es el estilo (la apariencia); el navegador interpreta ese código y lo dibuja.
+- **Práctica (editor inicial)**: [Abre el CodePen de demostración](<enlace-editor-1>) 👈 **¡Sin registro!**
 
-### Lección 2: Introducción a HTML (10 minutos)
-- **Descripción**: Explora las etiquetas HTML básicas y crea tu primera página. Aprenderás qué son las etiquetas, los elementos y los atributos, y cómo se anidan para dar estructura.
-- **Enlace**: [Ver la lección](<enlace-yt-2>)
-- **Conceptos clave**: Etiquetas de apertura y cierre, `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`.
-- **Práctica**: [Clic para programar](<enlace-editor-2>) 👈 **¡No necesitas registrarte!**
+### Lección 2: Estructura HTML básica (10 minutos)
+- **Descripción**: Aprende qué son las etiquetas, los elementos y los atributos, y construye el esqueleto HTML de tu página de perfil con tu nombre y una frase tuya.
+- **Enlace del tutorial**: [Ver la lección](<enlace-yt-2>)
+- **Consejos clave**: las etiquetas vienen en par (apertura/cierre); el elemento es apertura + contenido + cierre; los atributos dan información extra; todo lo visible va dentro de `<body>`.
+- **Práctica (editor inicial)**: [Abre el esqueleto en CodePen](<enlace-editor-2>) 👈 **¡Sin registro!**
 
-### Lección 3: Añadir más elementos HTML (8 minutos)
-- **Descripción**: Agrega listas, imágenes y enlaces para que tu página sea más rica e interactiva. Aprenderás a usar atributos como `src`, `alt` y `href`.
-- **Enlace**: [Ver la lección](<enlace-yt-3>)
-- **Conceptos clave**: Listas `<ul>` y `<ol>`, imágenes `<img>`, enlaces `<a>`, atributos.
-- **Práctica**: [Clic para programar](<enlace-editor-3>) 👈 **¡Comienza al instante!**
+### Lección 3: Elementos HTML comunes (8 minutos)
+- **Descripción**: Enriquece tu perfil con encabezados de sección, tu foto (`<img>`), una lista de tus hobbies (`<ul>`/`<li>`) y enlaces (`<a>`).
+- **Enlace del tutorial**: [Ver la lección](<enlace-yt-3>)
+- **Consejos clave**: `<img>` usa los atributos `src` (la dirección) y `alt` (texto descriptivo); las listas usan `<ul>` con varios `<li>`; los enlaces usan `<a>` con el atributo `href`.
+- **Práctica (editor inicial)**: [Continúa tu perfil en CodePen](<enlace-editor-3>) 👈 **¡Comienza al instante!**
 
 ### Lección 4: Introducción a CSS (12 minutos)
-- **Descripción**: Dale estilo a tu HTML con colores, fuentes y diseño. Conocerás los selectores y las propiedades más comunes para cambiar la apariencia de tu página.
-- **Enlace**: [Ver la lección](<enlace-yt-4>)
-- **Conceptos clave**: Selectores, vincular CSS con HTML, propiedades como `body { background-color: blue; }`, `color`, `font-family`.
-- **Práctica**: [Aplicar estilo con un clic](<enlace-editor-4>) 👈 **¡No es necesario registrarse!**
+- **Descripción**: Dale vida a tu perfil con CSS: aprende los selectores y las propiedades para cambiar colores, fondo y tipografía.
+- **Enlace del tutorial**: [Ver la lección](<enlace-yt-4>)
+- **Consejos clave**: una regla CSS es `selector { propiedad: valor; }`; `color` cambia el texto y `background-color` el fondo; con `font-family`, `font-size` y `text-align` controlas la tipografía.
+- **Práctica (editor inicial)**: [Aplica estilo en CodePen](<enlace-editor-4>) 👈 **¡Sin registro!**
 
-### Lección 5: Crea tu página de perfil (15 minutos)
-- **Descripción**: Combina HTML y CSS para crear una página de perfil personal. Aprenderás a centrar el contenido, agregar colores, bordes y dar un acabado limpio a tu primera página real.
-- **Enlace**: [Ver la lección](<enlace-yt-5>)
-- **Conceptos clave**: Aplicar estilos sobre estructura, centrar contenido, bordes y depuración de errores comunes.
-- **Proyecto Final**: [Crea tu Perfil](<enlace-editor-5>) 👈 **¡Guarda y comparte!**
+### Lección 5: Estilo simple y tu página de perfil final (15 minutos)
+- **Descripción**: Termina tu perfil: centra el contenido, agrega espaciado y bordes, y conviértelo en una tarjeta lista para compartir.
+- **Enlace del tutorial**: [Ver la lección](<enlace-yt-5>)
+- **Consejos clave**: `padding` es el espacio interno y `margin` el externo; centra bloques con `max-width` + `margin: 0 auto`; usa `border` y `border-radius` para la tarjeta y la foto redonda.
+- **Proyecto Final**: [Termina tu perfil en CodePen](<enlace-editor-5>) 👈 **¡Guarda y comparte!**
 
-### Lección 6: Recomendaciones y próximos pasos (10 minutos)
-- **Descripción**: Repasa las buenas prácticas, los errores más comunes de los principiantes y a dónde seguir aprendiendo. Cerramos validando tu código y explorando la documentación oficial.
-- **Enlace**: [Ver la lección](<enlace-yt-6>)
-- **Conceptos clave**: Errores comunes (etiquetas sin cerrar, rutas de imagen, falta de `alt`), validar el código, explorar la documentación web de MDN.
-- **Comparte tu trabajo**: [Envía tu Creación](<enlace-editor-6>)
+### Lección 6: Recomendaciones y errores comunes (10 minutos)
+- **Descripción**: Repasa los errores más comunes de los principiantes, aprende a validar tu código y descubre a dónde seguir aprendiendo.
+- **Enlace del tutorial**: [Ver la lección](<enlace-yt-6>)
+- **Consejos clave**: cierra siempre tus etiquetas y comillas; revisa las rutas de imagen y no olvides el `alt`; valida tu código con el validador del W3C; sigue aprendiendo en la documentación web de MDN.
+- **Comparte tu trabajo**: [Valida y comparte tu creación](<enlace-editor-6>)
 
 ## Recursos Adicionales
 
 - **Código Fuente Completo**: [Repositorio de GitHub](https://github.com/Developer-Core/webdev-course-developer-core)
 - **Todas las Actividades Prácticas**:
 
-| Lección # | Actividad | Empezar a Programar |
+| Lección # | Actividad | Editor inicial |
 |-----------|-----------------------|---------------------|
-| 1 | Explorar Sitios Web | [CodePen](<enlace-editor-1>) |
-| 2 | Primera página HTML | [CodePen](<enlace-editor-2>) |
-| 3 | Añadir imágenes | [JSFiddle](<enlace-editor-3>) |
-| 4 | Estilo de la página | [CodePen](<enlace-editor-4>) |
-| 5 | Página de perfil | [Replit](<enlace-editor-5>) |
-| - | Cuestionario | [Pon a prueba tus conocimientos](<enlace-editor-6>) |
-| - | Comparte | #WebDevBeginners |
+| 1 | Explorar la relación HTML ↔ CSS | [CodePen](<enlace-editor-1>) |
+| 2 | El esqueleto de tu perfil | [CodePen](<enlace-editor-2>) |
+| 3 | Foto, hobbies y enlaces | [CodePen](<enlace-editor-3>) |
+| 4 | Estilo con CSS | [CodePen](<enlace-editor-4>) |
+| 5 | Tu perfil final | [CodePen](<enlace-editor-5>) |
+| 6 | Valida y comparte | [Actividad de cierre](<enlace-editor-6>) |
 
 **¡Gracias por completar el curso!**
 
@@ -76,7 +79,7 @@ Universidad Peruana de Ciencias Aplicadas
 Carrera de Ingeniería de Software  
 Periodo 202610  
 1ASI0730 Aplicaciones Web  
-NRC 10215 
+NRC 10215  
 
 - **Nombre del equipo**: Developer Core
 - **Líder del equipo**: Torres Sanchez, Dalila Victoria
