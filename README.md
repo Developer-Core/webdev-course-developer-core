@@ -33,9 +33,9 @@ En este curso aprendes HTML y CSS construyendo paso a paso una **página de ejem
 
 ### Lección 3: Elementos HTML comunes (8 minutos)
 - **Descripción**: Enriquece tu página del videojuego con encabezados de sección, una imagen, texto destacado, listas con viñetas, listas numeradas y enlaces.
-- **Enlace del tutorial**: [Ver la lección](<enlace-yt-3>)
+- **Enlace del tutorial**: [Ver la lección](https://youtu.be/ibevGicwZjY)
 - **Consejos clave**: `<img>` usa los atributos `src` y `alt`. Las listas con viñetas usan `<ul>` y las numeradas `<ol>`, cada elemento en un `<li>`. Los enlaces usan `<a>` con `href`, y con `target="_blank"` abren en pestaña nueva.
-- **Práctica (editor inicial)**: [Continúa tu página en CodePen](<enlace-editor-3>) 👈 **¡Comienza al instante!**
+- **Práctica (editor inicial)**: [Continúa tu página en CodePen](https://codepen.io/Juan-David-Salda-a-De-Souza/pen/XJpMjaO) 👈 **¡Comienza al instante!**
 
 ### Lección 4: CSS: dale estilo a tu página (12 minutos)
 - **Descripción**: Dale estilo a tu página del videojuego con CSS. Selectores de elemento, clase e id, color, tipografía, el modelo de caja y una tarjeta centrada con Flexbox, bordes y efecto al pasar el cursor.
@@ -51,7 +51,7 @@ En este curso aprendes HTML y CSS construyendo paso a paso una **página de ejem
 
 ### Lección 6: Recomendaciones y errores comunes (10 minutos)
 - **Descripción**: Repasa los errores más comunes de los principiantes, aprende a validar tu código y descubre a dónde seguir aprendiendo.
-- **Enlace del tutorial**: [Ver la lección](<enlace-yt-6>)
+- **Enlace del tutorial**: [Ver la lección](https://youtu.be/_3nw-m_igxw)
 - **Consejos clave**: Cierra siempre tus etiquetas y comillas. Revisa las rutas de imagen y no olvides el `alt`. Valida tu código con el validador del W3C. Sigue aprendiendo en la documentación web de MDN.
 - **Comparte tu trabajo**: [Valida y comparte tu creación](<enlace-editor-6>)
 
@@ -64,7 +64,7 @@ En este curso aprendes HTML y CSS construyendo paso a paso una **página de ejem
 |-----------|-----------------------|---------------------|
 | 1 | Explorar la relación HTML ↔ CSS | [CodePen](<enlace-editor-1>) |
 | 2 | Tu videojuego en HTML | [CodePen](<enlace-editor-2>) |
-| 3 | Imagen, listas y enlaces | [CodePen](<enlace-editor-3>) |
+| 3 | Imagen, listas y enlaces | [CodePen](https://codepen.io/Juan-David-Salda-a-De-Souza/pen/XJpMjaO) |
 | 4 | Estilo con CSS | [CodePen](https://codepen.io/Piero_08/pen/OPWpXEV) |
 | 5 | Tu perfil desde cero | [CodePen](<enlace-editor-5>) |
 | 6 | Valida y comparte | [Actividad de cierre](<enlace-editor-6>) |
