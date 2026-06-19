@@ -72,11 +72,11 @@ El curso avanza de forma progresiva: primero entenderás **qué es un sitio web*
 
 ## 👥 Elaboración
 
-Universidad Peruana de Ciencias Aplicadas
-Carrera de Ingeniería de Software
-Periodo 202610
-1ASI0730 Aplicaciones Web
-NRC 10215
+Universidad Peruana de Ciencias Aplicadas  
+Carrera de Ingeniería de Software  
+Periodo 202610  
+1ASI0730 Aplicaciones Web  
+NRC 10215 
 
 - **Nombre del equipo**: Developer Core
 - **Líder del equipo**: Torres Sanchez, Dalila Victoria
