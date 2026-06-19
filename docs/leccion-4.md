@@ -5,7 +5,7 @@
 > 🔗 Termina la **página del videojuego** dándole estilo. El starter de esta lección es el `completed` de la 3.
 
 ## 🎯 Objetivo
-Al terminar, el estudiante podrá aplicar CSS usando selectores de elemento, clase e id, dar color y tipografía, usar el modelo de caja, centrar contenido y crear una tarjeta con bordes, esquinas redondeadas, sombra y efecto al pasar el cursor.
+Al terminar, el estudiante podrá aplicar CSS usando selectores de elemento, clase e id, dar color y tipografía, usar el modelo de caja, centrar con Flexbox y crear una tarjeta con borde de acento, esquinas redondeadas, listas tipo etiqueta y efecto al pasar el cursor.
 
 ## 🎬 Guion
 
@@ -22,22 +22,22 @@ Al terminar, el estudiante podrá aplicar CSS usando selectores de elemento, cla
 - **[Narración]**: "Hay tres formas principales de elegir qué estilizar. Por elemento, si escribes `h2`, le cambias el estilo a todos los `<h2>`. Por clase, le pones un atributo `class` a un elemento y en el CSS lo llamas con un punto adelante. La clase puedes repetirla en varios elementos. Y por id, que es único, solo uno por página. Le pones `id` al elemento y en el CSS lo llamas con un numeral. Regla simple, el elemento para todos, la clase para un grupo, el id para uno solo."
 
 ### Segmento 4 — Color y tipografía (5:00 – 7:00)
-- **[En pantalla]**: `body { background-color: #f0f4f8; color: #333; font-family: Arial, sans-serif; text-align: center; }` y `#titulo { color: #3366ff; }`.
+- **[En pantalla]**: `body { background-color: #eef2f7; color: #444; font-family: 'Segoe UI', Arial, sans-serif; }`, `#titulo { color: #3366ff; }` y el texto centrado con `text-align: center` en la tarjeta.
 - **[Narración]**: "Ahora las propiedades más usadas. `background-color` cambia el fondo. `color` cambia el texto. Puedes usar nombres o códigos hexadecimal, que empiezan con numeral. Con `font-family` eliges el tipo de letra. Con `text-align: center` centras el texto. Mira cómo con pocas líneas la página ya tiene personalidad."
 
 ### Segmento 5 — El modelo de caja (7:00 – 8:30)
 - **[En pantalla]**: una caja con `padding` por dentro y `margin` por fuera.
 - **[Narración]**: "Cada elemento es una caja. El `padding` es el espacio por dentro, entre el borde y el contenido. El `margin` es el espacio por fuera, entre esa caja y las demás. Con estos dos controlas casi todo el orden visual."
 
-### Segmento 6 — La tarjeta y centrar con Flexbox (8:30 – 10:45)
-- **[En pantalla]**: `<div class="tarjeta">` envolviendo el contenido. En el CSS, `body { display: flex; justify-content: center; }` y `.tarjeta { max-width: 400px; padding: 30px; background-color: #fff; border: 1px solid #ddd; border-radius: 12px; }`.
-- **[Narración]**: "Para agrupar todo usamos un `<div>`, un contenedor, con `class="tarjeta"`. Y ahora, ¿cómo la centramos? Por defecto los elementos se apilan uno debajo de otro, eso se llama `block`. La forma moderna de acomodarlos es Flexbox. Al `body` le ponemos `display: flex` y con `justify-content: center` empujamos la tarjeta al centro de la pantalla. A la tarjeta le damos un ancho máximo, un `padding` generoso, un borde fino y esquinas redondeadas con `border-radius`. Ya parece una página de verdad."
+### Segmento 6 — La tarjeta, Flexbox y detalles con vida (8:30 – 11:00)
+- **[En pantalla]**: `<div class="tarjeta">`. En el CSS, `body { display: flex; justify-content: center; }`, `.tarjeta { max-width: 420px; padding: 30px; border-radius: 16px; border-top: 6px solid #3366ff; }` y las listas como etiquetas: `ul { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; list-style: none; }` con cada `li` con fondo y `border-radius`.
+- **[Narración]**: "Para agrupar todo usamos un `<div>` con `class="tarjeta"`. ¿Cómo la centramos? Por defecto los elementos se apilan, eso es `block`. La forma moderna es Flexbox. Al `body` le ponemos `display: flex` y `justify-content: center` para empujar la tarjeta al centro. A la tarjeta, ancho máximo, padding, esquinas redondeadas y, para darle vida, un borde de color arriba con `border-top`. Y un truco lindo, las listas las convertimos en etiquetas. A la `<ul>` le ponemos `display: flex` con `flex-wrap`, y a cada `<li>` un fondo de color y `border-radius`. Mira cómo deja de verse como una lista aburrida y parece una app de verdad."
 
-### Segmento 7 — Efecto al pasar el cursor (10:45 – 11:20)
+### Segmento 7 — Efecto al pasar el cursor (11:00 – 11:30)
 - **[En pantalla]**: `a:hover { color: #ff6600; }`.
 - **[Narración]**: "Un toque profesional. Con `hover` cambias cómo se ve algo cuando pasas el cursor por encima. Escribes el selector, dos puntos, `hover`. Mira, al pasar el cursor el enlace cambia de color."
 
-### ⏸️ Segmento 8 — Pausa y practica (11:15 – 12:00)
+### ⏸️ Segmento 8 — Pausa y practica (11:30 – 12:00)
 - **[En pantalla]**: CodePen starter con la página de la Lección 3.
 - **[Narración]**: "Abre el enlace. Pausa el video y dale estilo a tu página. Color y tipografía al `body`, un id para el título, una tarjeta que envuelva todo y un efecto `hover` en los enlaces. En la lección 5 viene lo grande. Vas a construir tu página de perfil personal desde cero, tú solo, aplicando todo esto."
 

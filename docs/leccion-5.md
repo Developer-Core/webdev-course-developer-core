@@ -22,8 +22,8 @@ Al terminar, el estudiante podrá construir desde cero una página de perfil per
 - **[Narración]**: "Ahora el CSS, como en la lección 4. Al `body` le doy un color de fondo, una `font-family` y centro todo con `text-align`. Al nombre le pongo un `id` y le cambio el color. A la frase una `class` con cursiva. Rápido, porque ya sabes cómo funciona cada selector."
 
 ### Segmento 4 — La tarjeta y los detalles (8:00 – 11:30)
-- **[En pantalla]**: se envuelve el contenido en `<div class="tarjeta">`, se centra con `display: flex` y `justify-content: center` en el `body`, y la tarjeta lleva `max-width`, `padding`, `border` y `border-radius`. La foto con `border-radius: 50%`.
-- **[Narración]**: "Envuelvo todo en un `<div class="tarjeta">` y lo estilizo igual que la página del videojuego. La centro con Flexbox, `display: flex` y `justify-content: center` en el `body`. Le doy ancho máximo, fondo blanco, borde y esquinas redondeadas. Y un truco extra para el perfil, a la foto le doy `border-radius` de cincuenta por ciento para que quede redonda."
+- **[En pantalla]**: se envuelve el contenido en `<div class="tarjeta">`, se centra con `display: flex` y `justify-content: center` en el `body`, la tarjeta lleva `border-top` de color y `border-radius`, los hobbies y enlaces como etiquetas con flex, y la foto con `border-radius: 50%`.
+- **[Narración]**: "Envuelvo todo en un `<div class="tarjeta">` y lo estilizo igual que la página del videojuego. La centro con Flexbox. Le pongo el borde de color arriba para darle vida, convierto los hobbies y los enlaces en etiquetas con flex, y a la foto le doy `border-radius` de cincuenta por ciento para que quede redonda. Mira cómo tu perfil ya se ve como una tarjeta de verdad."
 
 ### Segmento 5 — El toque final: hover (11:30 – 12:30)
 - **[En pantalla]**: `a:hover` cambiando el color de los enlaces.

@@ -1,47 +1,88 @@
 body {
-  background-color: #f0f4f8;
-  color: #333333;
-  font-family: Arial, sans-serif;
+  background-color: #eef2f7;
+  color: #444444;
+  font-family: 'Segoe UI', Arial, sans-serif;
   line-height: 1.6;
+  margin: 0;
+  padding: 40px 16px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
 .tarjeta {
-  max-width: 400px;
-  margin-top: 40px;
-  padding: 30px;
+  max-width: 420px;
+  width: 100%;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
-  border-radius: 12px;
+  border-top: 6px solid #3366ff;
+  border-radius: 16px;
+  padding: 30px;
   text-align: center;
 }
 
 .foto {
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
+  border: 4px solid #eef2f7;
+  object-fit: cover;
 }
 
 #nombre {
   color: #3366ff;
-  font-size: 32px;
+  font-size: 30px;
+  margin: 12px 0 4px;
 }
 
 .subtitulo {
-  color: #777777;
+  color: #888888;
   font-style: italic;
+  margin-top: 0;
 }
 
 h2 {
-  color: #555555;
+  color: #333333;
+  font-size: 18px;
+  margin-top: 28px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #eef2f7;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+ul li {
+  background-color: #eef2f7;
+  color: #3366ff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+  margin: 14px 0;
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 2px 0;
 }
 
 a {
   color: #3366ff;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
   color: #ff6600;
-  text-decoration: underline;
 }
