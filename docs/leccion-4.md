@@ -42,6 +42,7 @@ Al terminar, el estudiante podrá aplicar CSS usando selectores de elemento, cla
 - **[Narración]**: "Abre el enlace. Pausa el video y dale estilo a tu página. Color y tipografía al `body`, un id para el título, una tarjeta que envuelva todo y un efecto `hover` en los enlaces. En la lección 5 viene lo grande. Vas a construir tu página de perfil personal desde cero, tú solo, aplicando todo esto."
 
 ## 🔗 Recursos
-- **Video**: `<enlace-yt-4>`
-- **Editor inicial (starter)**: `<enlace-editor-4>`
+- **Video**: https://youtu.be/8Qj_KnsGiZw
+- **Editor inicial (starter)**: https://codepen.io/Piero_08/pen/OPWpXEV
+- **Solución (completed)**: https://codepen.io/Piero_08/pen/WbRpxyG
 - **Código**: `starter-files/leccion-4/` y `completed-examples/leccion-4/` (página del videojuego terminada)
