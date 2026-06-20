@@ -45,15 +45,15 @@ En este curso aprendes HTML y CSS construyendo paso a paso una **página de ejem
 
 ### Lección 5: Proyecto final: tu página de perfil personal (15 minutos)
 - **Descripción**: El proyecto final. Construye desde cero tu propia página de perfil personal, aplicando todo el HTML y CSS de las lecciones anteriores, y compártela.
-- **Enlace del tutorial**: [Ver la lección](<enlace-yt-5>)
+- **Enlace del tutorial**: [Ver la lección](https://www.youtube.com/watch?v=UEGSu92aK2s)
 - **Consejos clave**: Aplica todo lo aprendido. Estructura con HTML, estilo con CSS, la tarjeta y el efecto hover. Si olvidas algo, vuelve a la lección donde se explicó.
-- **Proyecto Final**: [Crea tu perfil desde cero en CodePen](<enlace-editor-5>) 👈 **¡Guarda y comparte!**
+- **Proyecto Final**: [Es tu turno de crear](https://codepen.io/Anderson-Gonza-Morales/pen/WbRpGBK) 👈 **¡Guarda y comparte!**
 
 ### Lección 6: Recomendaciones y errores comunes (10 minutos)
 - **Descripción**: Repasa los errores más comunes de los principiantes, aprende a validar tu código y descubre a dónde seguir aprendiendo.
 - **Enlace del tutorial**: [Ver la lección](https://youtu.be/_3nw-m_igxw)
 - **Consejos clave**: Cierra siempre tus etiquetas y comillas. Revisa las rutas de imagen y no olvides el `alt`. Valida tu código con el validador del W3C. Sigue aprendiendo en la documentación web de MDN.
-- **Comparte tu trabajo**: [Valida y comparte tu creación](<enlace-editor-6>)
+- **Comparte tu trabajo**: [Valida y comparte tu creación](https://codepen.io/accounts/signup/user/free)
 
 ## Recursos Adicionales
 
